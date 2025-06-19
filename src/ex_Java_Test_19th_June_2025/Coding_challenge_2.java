@@ -21,7 +21,7 @@ Addition: 15 Subtraction: 5 Multiplication: 50 Division: 2 Modulus: 0
         int sub = x-y;
         int multi = x*y;
         int div = x/y;
-        int mod = x%2;
+        int mod = x%y;
         System.out.print("Addition: "+add+" Subtraction: "+sub+" Multiplication: "+multi+" Division: "+div+" Modulus: "+mod);
     }
 }
