@@ -13,7 +13,7 @@ public class Lab010_Keywords_Identifiers {
     - interface – Defines an interface.
     - extends – Indicates inheritance between classes.
     - implements – Shows that a class implements an interface.
-    - new – Used to create new objects.
+    - new – Used to ceate new objects.
     - this – Refers to the current instance of a class.
     - super – Refers to the parent class of the current object.
     - static – Used to declare static members.
