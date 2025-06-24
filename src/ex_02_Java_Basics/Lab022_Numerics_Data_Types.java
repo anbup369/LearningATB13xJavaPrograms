@@ -10,5 +10,7 @@ public class Lab022_Numerics_Data_Types {
         char c= 'a';
         long l = 9876543210l;
         long l1 = 9876543210L;
+        System.out.print(b+i+s+c+l+l1); //just for printing, not for formating
+
     }
 }

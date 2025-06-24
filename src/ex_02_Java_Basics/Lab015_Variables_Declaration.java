@@ -16,7 +16,7 @@ public class Lab015_Variables_Declaration {
         // = -> assignment - assign the value to the b
 
         // 10 -> literal -> integer value
-
+        System.out.println(b);
 
     }
 }
