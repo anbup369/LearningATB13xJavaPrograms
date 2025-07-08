@@ -9,12 +9,10 @@ public class Lab177_DC_Parameter_Constructor {
         System.out.println(b2.name);
 
 
-        BabyA b3  = new BabyA("lucky","23454323",2025,07,01);
-        BabyA b4  = new BabyA("amit","13454323",2024,07,01);
+        BabyA b3 = new BabyA("lucky", "23454323", 2025, 07, 01);
+        BabyA b4 = new BabyA("amit", "13454323", 2024, 07, 01);
         System.out.println(b3.name);
         System.out.println(b4.name);
-
-
 
 
     }
@@ -22,7 +20,7 @@ public class Lab177_DC_Parameter_Constructor {
 
 }
 
-class BabyA{
+class BabyA {
 
     String name;
     String aadhar_number;
@@ -31,7 +29,7 @@ class BabyA{
     int day;
 
     // DC
-    BabyA(){
+    BabyA() {
         name = "Gugu";
         aadhar_number = "0000";
         year = 1971;
@@ -40,14 +38,13 @@ class BabyA{
 
     }
 
-    BabyA(String name_user,String aadhar_number_user,int year_user, int month_user,int day_user){
+    BabyA(String name_user, String aadhar_number_user, int year_user, int month_user, int day_user) {
         this.name = name_user;
         this.aadhar_number = aadhar_number_user;
         this.year = year_user;
         this.month = month_user;
         this.day = day_user;
     }
-
 
 
 }

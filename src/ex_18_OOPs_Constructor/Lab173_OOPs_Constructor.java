@@ -7,43 +7,40 @@ public class Lab173_OOPs_Constructor {
     }
 
 
-
 }
 
 
-class Baby{
+class Baby {
     // Attribute | Instance Variable |  Member variables, data members
     String name;
 
     // Default Constructor!
-    Baby(){
+    Baby() {
         System.out.println("I am called, Default Constructor!");
-        System.out.println("Your Aadhar Number is ready!");
+        System.out.println("Your Aadhaar Number is ready!");
 
         // Fetch data from the MySQL database...
         // Read from CSV File , XLSX
-        // Open a file and read the data. (json, testdata.xlsx, txt file)
+        // Open a file and read the data. (json, test_data.xlsx, txt file)
 
 
     }
 
-    void m1(){
+    void m1() {
         System.out.println("I m1");
     }
 
 
-
-
     // Behaviour
-    void cry(){
+    void cry() {
         System.out.println("Cry!!");
     }
 
-    void sleep(){
+    void sleep() {
         System.out.println("Sleep!!");
     }
 
-    void eat(){
+    void eat() {
         System.out.println("Eat!!");
     }
 

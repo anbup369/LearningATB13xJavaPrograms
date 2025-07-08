@@ -28,18 +28,18 @@ class Car {
     String model;
 
     // DC
-    Car(){
+    Car() {
         name = "Unknown Car";
         year = 1991;
-        model =  "XXX";
+        model = "XXX";
     }
 
 }
 
-class Baby1{
+class Baby1 {
     String name;
 
-    Baby1(){
+    Baby1() {
         name = "Gugu";
     }
 }

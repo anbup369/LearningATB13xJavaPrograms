@@ -1,4 +1,5 @@
 package ex_17_OOPs;
+
 //in latest version of Java, all classes can have main method
 public class Lab169_Multiple_Class_Main_Method {
     public static void main(String[] args) {

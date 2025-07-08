@@ -15,7 +15,7 @@ public class Lab167_OOPS_Default_Constructor {
 class Student {
     String name;
 
-    // is called as the default constructor, same name as the class name.
+    // is called as the default constructor, same name as the class name no return type needed
     Student() {
         System.out.println("DC");
     }

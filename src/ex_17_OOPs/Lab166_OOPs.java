@@ -7,9 +7,5 @@ public class Lab166_OOPs {
         Person pramod = new Person();
 
 
-
-
-
-
     }
 }
