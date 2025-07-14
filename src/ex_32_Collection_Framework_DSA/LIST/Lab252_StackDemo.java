@@ -2,7 +2,7 @@ package ex_32_Collection_Framework_DSA.LIST;
 
 import java.util.Stack;
 
-public class Lab252_Stack {
+public class Lab252_StackDemo {
     public static void main(String[] args) {
 
         // Create a stack to store String values
