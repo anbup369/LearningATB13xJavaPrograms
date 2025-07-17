@@ -1,0 +1,118 @@
+1. Program: Word Frequency Counter Using HashMap
+📘 Description:
+
+Takes a sentence and prints how many times each word appears using HashMap.
+
+Input: "java is easy and java is powerful"
+
+Output:
+
+java -> 2
+
+is -> 2
+
+easy -> 1
+
+and -> 1
+
+powerful -> 1
+
+
+2. Program: Iterate Over HashMap in Three Ways
+📘 Description:
+
+Create a map with key-value pairs and iterate using:
+
+    entrySet()
+
+    keySet()
+
+    Iterator
+
+Input: {"Name" -> "Dipak", "Role" -> "Tester", "Level" -> "Senior"}
+
+Output
+
+Name -> Dipak
+
+Role -> Tester
+
+Level -> Senior
+
+
+3. Program: Sort Map by Keys Using TreeMap
+📘 Description:
+
+Store data in HashMap, then transfer to TreeMap to sort by keys.
+ Input: {"Ravi": 80, "Anjali": 95, "Dipak": 75}
+
+Output:
+
+Anjali = 95
+
+Dipak = 75
+
+Ravi = 80
+4. Program: Character Frequency Counter
+📘 Description:
+
+Count how many times each character appears in a string using HashMap.
+
+Input:
+
+"aabbccddeeff"
+
+Output:
+
+a -> 2
+
+b -> 2
+
+c -> 2
+
+d -> 2
+
+e -> 2
+
+f -> 2
+5. Program: Find First Non-Repeated Character
+📘 Description:
+
+Prints the first character that appears only once using LinkedHashMap.
+Input:→"aabbccdeeff"
+
+Output:→ First non-repeated character is: d
+6. Program: Group Words by Length Using Map
+📘 Description:
+
+Group words based on their length using Map<Integer, List<String>>.
+
+Input: ["Java", "is", "fun", "cool", "Hi"]
+
+Output:
+
+ 2 -> [is, Hi]
+
+3 -> [fun]
+
+4 -> [Java, cool]
+7. Program: Filter Students by Name Starting with 'A'
+📘 Description:
+
+Store roll numbers and names in a HashMap, print only those starting with 'A'.
+
+Input: {101="Anjali", 102="Dipak", 103="Aman", 104="Ravi"}
+
+Output:
+
+101 -> Anjali
+
+103 -> Aman
+8. Program: Find Most Frequent Character in String
+📘 Description:
+
+Count frequency of characters and find the one with the highest count.
+
+Input: "aaaabbbcc"
+
+Output:  Most frequent character is: a (4 times)
