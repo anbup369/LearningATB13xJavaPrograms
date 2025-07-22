@@ -1,0 +1,114 @@
+1. Add and Display Elements in ArrayList
+
+📘 Description:
+Create an ArrayList of student names. Add the following 5 students:
+Dipak, Ravi, Sneha, Priya, Anjali.
+Then display all names using a loop.
+
+✅ Expected Output:
+
+Student List:
+
+Dipak
+
+Ravi
+
+Sneha
+
+Priya
+
+Anjali
+
+
+
+2. Remove an Element from ArrayList
+
+📘 Description:
+Create an ArrayList with these names: Amit, Neha, Suresh.
+Remove the name Neha and display the updated list.
+
+✅ Expected Output:
+
+Names after removal:
+
+[Amit, Suresh]
+
+
+
+3. Reverse a LinkedList
+
+📘 Description:
+Create a LinkedList and add the following numbers:
+10, 20, 30, 40.
+Reverse the list and print the output.
+
+✅ Expected Output:
+
+Reversed List:
+
+[40, 30, 20, 10]
+
+
+
+4. Find an Element in ArrayList
+
+📘 Description:
+Create an ArrayList of cities: Mumbai, Delhi, Pune.
+Check if Pune is present in the list. Print a message accordingly. (you can use If Condition to check the Pune city and you can take the City name from User)
+
+✅ Expected Output:
+
+Pune is in the list.
+
+
+
+5. Compare ArrayList vs LinkedList Performance
+
+📘 Description (Updated with Hints):
+In this program, you’ll compare how fast Java can add elements to an ArrayList versus a LinkedList.
+
+You will:
+
+
+
+
+
+Create two separate lists: one ArrayList and one LinkedList.
+
+
+
+Add 100,000 numbers (from 0 to 99,999) to each list using a loop.
+
+
+
+Use System.currentTimeMillis() to measure how much time it takes to add the elements.
+
+
+
+Print the time taken for both lists.
+
+ Hint :-
+
+ :-  System.currentTimeMillis() gives you the current time in milliseconds.
+
+ :-  Subtract the end time from the start time to get the duration.
+
+ :-  You don’t need to print all the 100,000 numbers, just print the time taken.
+
+✅ Expected Output:
+
+ArrayList time: 8 ms
+
+LinkedList time: 12 ms
+
+
+
+6. Insert in Middle of LinkedList
+
+📘 Description:
+Create a LinkedList with fruits: Apple, Banana, Mango.
+Insert Orange at index 1 and print the final list.
+
+✅ Expected Output:
+
+Fruits List: [Apple, Orange, Banana, Mango]
