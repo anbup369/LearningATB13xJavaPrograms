@@ -1,0 +1,185 @@
+ABSTRACT CLASS PRACTICE PROGRAMS
+
+1. Animal Sound - Abstract Method Implementation
+
+
+
+
+
+Description: Create an abstract class Animal with an abstract method makeSound(). Extend it in Dog and Cat.
+
+🔶 Expected Output:
+
+ Dog barks
+
+Cat meows
+
+
+
+2. Bank Interest Calculation
+
+
+
+
+
+Description: Abstract class Bank with abstract method getInterestRate(). Classes SBI and HDFC implement it.
+
+🔶 Expected Output:
+
+SBI Interest Rate: 6.5%
+
+HDFC Interest Rate: 7.0%
+
+
+
+3. Abstract Class with Constructor
+
+Description: Show that abstract class can have constructor. Print message from constructor and method.
+
+🔶Expected Output:
+
+Abstract class constructor called
+
+Method from abstract class
+
+4. Abstract vs Concrete Method
+
+🔶 Objective:
+
+Understand how abstract classes can contain both abstract methods (which must be implemented in the subclass) and concrete methods (which can be used as-is).
+
+🔶 Steps to Create:
+
+
+
+
+
+Create an abstract class Parent.
+
+
+
+Define one abstract method void show().
+
+
+
+Define one concrete method void display() that prints a message.
+
+
+
+Create a class Child that extends Parent.
+
+
+
+Implement the show() method inside Child.
+
+
+
+In the main() method, create an object of Child and call both display() and show().
+
+🔶Expected Output:
+
+Concrete method in abstract class
+
+Abstract method implemented
+
+
+
+INTERFACE PRACTICE PROGRAMS
+
+5. Multiple Inheritance Using Interfaces
+
+🔶 Objective:
+
+Show how a class in Java can implement multiple interfaces to achieve multiple inheritance.
+
+🔶 Steps:
+
+Create two interfaces: Printable and Showable.
+
+Each interface should have a method: print() and show() respectively.
+
+Create a class Document that implements both interfaces.
+
+Implement both methods in the Document class.
+
+In the main() method, create a Document object and call both methods.
+
+🔶 Expected Output:
+
+Printing Document
+
+Showing Document
+
+
+
+6. Interface with Default and Static Method
+
+🔶 Objective:
+
+Learn how to use default and static methods in interfaces (since Java 8).
+
+🔶 Steps:
+
+Create an interface Vehicle.
+
+Add a default method start() that prints "Vehicle started".
+
+Add a static method fuelType() that prints "Fuel type is Petrol".
+
+Create a class Car that implements Vehicle.
+
+In main(), create a Car object and call start().
+
+Call Vehicle.fuelType() without creating an object.
+
+🔶 Expected Output:
+
+Vehicle started
+
+Fuel type is Petrol
+
+
+
+7. Interface Constants
+
+🔶 Objective:
+
+Demonstrate how to use constants (public static final variables) in interfaces.
+
+🔶 Steps:
+
+Create an interface SpeedLimit with a constant MAX_SPEED = 120.
+
+In a class Car, access and print the constant.
+
+Do not modify the constant—it should behave like a final value.
+
+🔶 Expected Output:
+
+Max Speed is: 120
+
+
+
+8. Interface Polymorphism
+
+🔶 Objective:
+
+Learn how interfaces support polymorphism – calling the same method on different implementations.
+
+🔶 Steps:
+
+Create an interface Playable with method play().
+
+Create two classes: Guitar and Piano, both implement Playable.
+
+Implement the play() method in both classes with different messages.
+
+In main(), declare a reference of type Playable and assign it objects of Guitar and Piano one by one.
+
+Call play() on each.
+
+🔶 Expected Output:
+
+Playing Guitar
+
+Playing Piano
