@@ -1,0 +1,114 @@
+(Do not use YOur laptop or mobile to do the calculation, you have to do it by Your self)
+
+(You Have to Paste You’re Answer Here in the Comment section)
+
+
+
+
+ Answers in Line
+
+
+
+ //Question 1
+
+        int a = 20;
+
+        int b = a++;
+
+        System.out.println(“what will be the value of B “ +b); //answer b: 20
+
+        System.out.println(“what will be the value of B “ +a);  //answer a: 21
+
+
+
+// Question 2
+
+        int  a = 20;
+
+        int  b = a++;
+
+        System.out.println(“what will be the value of a “ +a); //answer a: 21
+
+        System.out.println(“what will be the value of b “ +b);//answer b: 20
+
+        System.out.println(“what will be the value of a “ +a);//answer a: 21
+
+// Question 3
+
+        int  a = 20;
+
+        System.out.println(a);//answer a: 20
+
+        int  b = a++;
+
+        System.out.println(b);//answer b: 20
+
+        System.out.println(a);//answer a: 21
+
+//Question 4
+
+        int c = 5;
+
+        int d = ++c;
+
+        System.out.println(c);//answer c: 6
+
+        System.out.println(d);//answer d: 6
+
+//Question 5
+
+        int  c = 10;
+
+        int  d = c--;
+
+        System.out.println(c);//answer c: 9
+
+        System.out.println(d);//answer d: 10
+
+//Question 6
+
+        int  c = 10;
+
+        int  d = --c;
+
+        System.out.println(c);//answer c: 9
+
+        System.out.println(d);//answer d: 9
+
+//Question 7
+
+        int a = 110;
+
+        int b = a--;
+
+        System.out.println("the value of b is " +b);//answer b: 110
+
+        int d = --a;
+
+        System.out.println("the value of D is " + d);//answer D: 108
+
+        System.out.println("the value of A is " +a);//answer A: 108
+
+        int l= b--;
+
+        System.out.println("the value of l is " +l);//answer l: 110
+
+        System.out.println("the value of b is " +b);//answer b: 109
+
+        int s = d-- + --b; (108+108) -->216
+
+        System.out.println("the value of S is " +s);//answer S: 216
+
+        s = --d + --b; (106+107)--> 213
+
+        System.out.println("the value of S is " +s);//answer S: 213
+
+        System.out.println("the value of b is " +b);//answer b: 107
+
+        System.out.println("what will be the value of "+ b++);//answer b++: 107
+
+        System.out.println("what will be the value of "+ ++b);//answer ++b: 109
+
+        System.out.println("what will be the value of "+ b--);//answer b--: 109
+
+        System.out.println("what will be the value of "+ --b);	//answer --b: 	107
