@@ -1,0 +1,22 @@
+Program 1: Access parent class constructor using super()
+Program 2: Access parent class method using super
+Program 3: Access parent class variable using super
+Program 4: Create a Program to Access the private access modifier
+Program 5: default (no modifier) access - same package only
+📝 Instructions:
+Create a class Student with a method showDetails() without any access modifier (default).
+In the same file or same package, create a class TestDefault.
+In main(), create an object of Student and call the showDetails() method.
+Program 6: Demonstrate protected Access Modifier
+:-  Learn how protected members behave in inheritance.
+📝 Instructions:
+Create a class Animal with a protected method eat() that prints "Animal is eating".
+Create a child class Dog that extends Animal.
+Create a method doEat() in Dog class which calls eat() using inheritance.
+In main(), create a Dog object and call doEat().
+Program 7: Demonstrate public Access Modifier
+:- Understand how public methods are accessible from anywhere.
+📝 Instructions:
+Create a class Student with a public method showInfo() that prints "Public Access: Student Info".
+In the main() method, create an object of Student.
+Call showInfo() directly from anywhere like same class, sub class, different class same package, in different package it should work without restriction.
