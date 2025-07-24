@@ -1,0 +1,64 @@
+1st July Constructor Q&A
+
+1. What is a constructor in Java?
+- A constructor is a special method used to initialize objects when a class is instantiated.
+- It has the same name as the class and no return type (not even void).
+
+2. How is a constructor different from a method?
+
+| Feature | Constructor | Method |
+| Purpose | Initializes an object | Performs operations or logic |
+| Name    | Same as class name | Can be any valid name |
+| Return Type | None (not even void) | Must have a return type |
+| Invocation | Called automatically when object is created | Called manually using object reference |
+
+3. What are the different types of constructors in Java?
+
+Types of Constructors in Java
+- Default Constructor: No parameters; auto-provided by compiler if not defined.
+- Parameterized Constructor: Accepts arguments for custom initialization.
+- Copy Constructor (not built-in, but can be manually written): Creates an object by copying another object.
+
+4. What is constructor overloading?
+
+- Multiple constructors in a class with different parameter lists.
+- Allows creating objects in different ways.
+
+class Demo {
+    Demo() {
+        System.out.println("Default constructor");
+    }
+
+    Demo(String name) {
+        System.out.println("Hello " + name);
+    }
+}
+
+5. Can a constructor be final, static, or abstract?
+
+-  final: Not allowed. Constructors aren’t inherited, so final isn’t meaningful.
+-  static: Not allowed. Constructors are tied to object instances, not classes.
+-  abstract: Not allowed. Constructors must be implemented, not abstract.
+
+6. Can we call a constructor explicitly inside another constructor?
+
+- Yes, using this() for same class or super() for parent class constructors.
+
+class Example {
+    Example() {
+        this("Hello");
+    }
+
+    Example(String msg) {
+        System.out.println(msg);
+    }
+}
+
+7. What happens if you don’t define a constructor in a class?
+
+ava automatically provides a default constructor (with no parameters) that does nothing—except call super() in case of inheritance.
+
+
+Program 1 : What is a default constructor? Give one example, Write a code for that --> in Task1.java
+
+Program 2: How do you create a parameterized constructor? Give one example, Write a code for that --> in Task2.java
