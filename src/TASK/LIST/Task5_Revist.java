@@ -1,4 +1,4 @@
-package TASK.ARRAY;
+package TASK.LIST;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package TASK.ARRAY;
+package TASK.LIST;
 /*
 1. Add and Display Elements in ArrayList
 
