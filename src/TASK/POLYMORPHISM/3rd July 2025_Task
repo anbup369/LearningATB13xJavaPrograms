@@ -1,0 +1,43 @@
+Method Overloading
+🔹 Task 1: Add Two Numbers
+Title: Overload a method to add different types of numbers
+Description: Create a class Calculator with two overloaded methods add(int a, int b) and add(double a, double b).
+The int version should add two integers.
+The double version should add two decimal numbers. In the main method, call both versions to demonstrate how overloading works with data types.
+🔹 Task 2: Print Data
+Title: Create a universal printer with overloading
+Description: Create a class Printer with multiple printData() methods to handle different data types:
+printData(String data)
+printData(int data)
+printData(float data) Demonstrate in the main() method how the same method name behaves differently depending on the parameter type.
+🔹 Task 3: Multiply Numbers
+Title: Multiply using overloaded methods
+Description: Create a class MathOperations with two multiply() methods:
+One takes two integers and returns the product
+Another takes three integers and returns their product This helps students understand how Java distinguishes methods based on parameter count.
+🔹 Task 4: Greet User
+Title: Greet users differently using overloading
+Description: Create a class Greeter with the following methods:
+greet() – prints "Hello!"
+greet(String name) – prints "Hello, [name]!" This task teaches overloading based on the number of parameters.
+🔹 Task 5: Find Maximum
+Title: Find max using overloaded functions
+Description: Create a class Utility with two methods named max():
+max(int a, int b) returns the larger of two integers
+max(int a, int b, int c) returns the larger of three integers
+max(double a, double b) returns the larger of two decimal values Add method calls in main() to compare different types.
+ Method Overriding
+🔹 Task 6: Animal Sounds
+Title: Override sound behavior in subclasses
+Description: Create a base class Animal with a method sound(). Create subclasses Dog, Cat, and Cow, each overriding sound() to return “Bark”, “Meow”, and “Moo” respectively. Create an object of each class and call sound() to see how overriding provides different outputs using the same method name.
+🔹 Task 7: Vehicle Start
+Title: Demonstrate engine start behavior using overriding
+Description: Create a base class Vehicle with a method start(). Create Bike and Car classes that override the start() method:
+Bike prints "Kick start the bike"
+Car prints "Turn the key to start the car" This shows how polymorphism works with method overriding.
+🔹 Task 8: Employee Role Info
+Title: Show employee roles with overridden methods
+Description: Create a class Employee with method role() printing “General Employee”. Create child classes Manager, Clerk, Tester, each overriding role() to print their specific roles. Call role() on each object to show how overriding helps in specialization.
+🔹 Task 9: Login Functionality
+Title: Different login behaviors for users
+Description: Create a class User with method login() that prints “User login”. Create subclasses AdminUser and RegularUser, each overriding login() with their own logic/messages. Demonstrate calling the login() method using base class reference to highlight runtime polymorphism

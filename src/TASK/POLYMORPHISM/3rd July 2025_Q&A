@@ -1,0 +1,59 @@
+1) If there is no main method, what will happen?
+If your program doesn’t have a main method, the JVM (Java Virtual Machine) won’t know where to begin.
+
+2) Does main method return any value?
+No, the main method has a **void** return type, which means it does not return anything.
+
+3) what is main method?
+- It’s the entry point for your Java application.
+- JVM calls this method when you run your program.
+- Its signature must be precise:
+
+public static void main(String[] args)
+
+4) (String[] args) what is this in main method?
+
+- It's a way to accept command-line arguments.
+- String[] means an array of strings.
+- You can pass inputs like java MyProgram Hello World — and args[0] would be "Hello", args[1] would be "World".
+
+5) main(String[] args) in this instead of args can i write something else like java, or Selenium like this (String[] Selenium)?
+
+This is valid — the array name can be anything (args, java, Selenium, etc.).
+
+6) public static void main(String args[]) { } is this right main method, is this will work? ([] position is changed)
+
+Yes. The positioning of the brackets []—before or after the variable name—is flexible in Java. Both mean the same thing: you're declaring a method that takes an array of String
+
+
+7) public static void main(String[]args) { }, is this right main method, is this will work? (i have removed the space between []args)
+
+yes, this is valid. Space between [] and args is optional.
+
+8) public static void main(String...args) { }, is this right main method, is this will work? ( i have removed [] and added ...)
+
+-  This works too! String... args is called varargs, introduced in Java 5.
+- It allows zero or more arguments and is treated like an array internally.
+
+9) static public void main(String[] args) { is this valid main method ?
+
+ Also valid! The order of static and public doesn’t matter
+
+
+10) public void static main(String[] args) {} is this valid main method?
+
+-  Invalid. Keywords like public, static, and the return type must be in proper order.
+- Correct order: public static void
+
+
+11) public static main void (String[] args) {} is this valid main method?
+
+Invalid syntax. This is a jumbled version of what the JVM expects
+
+12) Who Gets Highest Priority in Execution?
+
+The main method gets top priority.
+
+If multiple classes have main methods, the JVM executes the one you specify using Class Name.
+
+
