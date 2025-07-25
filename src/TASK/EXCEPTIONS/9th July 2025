@@ -1,0 +1,79 @@
+Task 1: Basic Try-Catch with ArithmeticException
+
+📘 Description:
+Divide a number by zero and handle the exception.
+
+🧤 Expected Output:
+Catch ArithmeticException and print a friendly message.
+
+
+
+✅ Task 2: Try-Catch with Multiple Catch Blocks
+
+📘 Description:
+Write code that may throw either ArithmeticException or ArrayIndexOutOfBoundsException and handle them with multiple catch blocks.
+
+🧤 Expected Output:
+Print which exception occurred.
+
+
+
+✅ Task 3: Try-Catch-Finally
+
+📘 Description:
+Create a program with a try, a catch, and a finally block.
+Demonstrate that the finally block always executes.
+
+
+
+✅ Task 4: Nested Try-Catch
+
+📘 Description:
+Write a program with a try-catch block inside another try-catch block.
+Example: Outer block for ArithmeticException, inner for ArrayIndexOutOfBoundsException.
+
+
+
+✅ Task 5: Catch Using Exception (Generic Catch)
+
+📘 Description:
+Use only catch(Exception e) to catch any exception.
+Throw a NullPointerException or ArithmeticException inside try.
+
+
+
+✅ Task 6: Catch Specific vs Generic Exception
+
+📘 Description:
+Try the same code twice — once using catch(Exception e) and once using catch(NullPointerException e).
+Compare output and behavior.
+
+
+
+✅ Task 7: Handle Checked Exception using Try-Catch
+
+📘 Description:
+Open a file using FileReader and handle FileNotFoundException using try-catch.
+
+
+
+✅ Task 8: Throw Exception and Catch It
+
+📘 Description:
+Manually throw an exception using throw new ArithmeticException() and catch it.
+
+
+
+✅ Task 9: Try Block Without Exception
+
+📘 Description:
+Write a try block that does not throw any exception.
+Verify that the catch block is skipped and finally still runs.
+
+
+
+✅ Task 10: Try With Multiple Statements
+
+📘 Description:
+Write multiple statements in a try block.
+Ensure if the first fails, the rest are not executed, and control goes to catch.
