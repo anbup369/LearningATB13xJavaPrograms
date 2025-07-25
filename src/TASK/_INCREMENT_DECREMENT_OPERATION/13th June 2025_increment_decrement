@@ -1,0 +1,57 @@
+Task 13th June 2025 | INCREMENT & DECREMENT OPERATOR PROGRAMS
+
+Answers in Line //Output
+
+🔹 Program 1:
+
+int a = 5;
+
+int b = a++;
+
+System.out.println("a: " + a + ", b: " + b);  //Output: a: 6, b: 5
+
+
+🔹 Program 2:
+int i = 1;
+
+i = i++ + ++i;
+
+System.out.println(i); // Output: 4
+
+
+🔹 Program 3:
+
+int x = 5;
+
+System.out.println(x++ + ++x); //Output: 12
+
+
+🔹 Program 4:
+
+         int x = 5;
+
+        System.out.println(++x); // Output: 6
+
+        System.out.println(x++); // Output: 6
+
+        System.out.println(x);   // Output: 7
+
+🔹 Program 5:  Interview Question
+
+         int a = 5;
+
+        int b = a++ + ++a;
+
+        System.out.println("a: " + a); // Output: 7
+
+        System.out.println("b: " + b); // Output: 12
+
+
+
+🔹Program 6:  Interview Question
+
+int x = 5;
+
+int y = x++ + ++x + x++ + ++x; y= , x = 9
+
+System.out.println("x = " + x + ", y = " + y); // Output: x =9, y=28
