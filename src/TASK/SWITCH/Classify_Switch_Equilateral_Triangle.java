@@ -1,4 +1,4 @@
-package ex_09_Switch;
+package TASK.SWITCH;
 //equilateral triangle
 import java.util.Scanner;
 
