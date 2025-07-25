@@ -1,0 +1,13 @@
+By using the concept of printf(), I want you to print the table of 9. without loop
+
+9×1 = 9
+
+9×2 = 18
+
+9× 3 = 27
+
+….
+9× 10 = 90
+
+System.out.printf("%d x %d",a,b);
+
