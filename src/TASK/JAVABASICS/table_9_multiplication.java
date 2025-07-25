@@ -1,4 +1,4 @@
-package TASK.JavaBasics;
+package TASK.JAVABASICS;
 /*
 10th June 2025
 By using the concept of printf(), I want you to print the table of 9. without loop
