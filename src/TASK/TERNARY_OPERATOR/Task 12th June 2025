@@ -1,0 +1,39 @@
+✅ 1 TERNARY OPERATOR PROGRAMS
+
+🔹 Program 1: Find Max of Two Numbers using Ternary Operators.
+
+                 Description: Uses ternary operator to compare a and b and print the maximum value.A =10, B= 20;
+
+🔹 Program 2: Check Even or Odd.
+
+                 Description: Uses ternary to check whether a number is even or odd. A = 19, update the a value and check again A =20;
+
+🔹Program 3: Grade Calculation Using Nested Ternary
+
+                   Description: Marks 90 = A+, 75 = A, 60 = B, 40 = C, below 40 Fail. 
+
+
+
+✅ 2. TYPECASTING PROGRAMS
+
+🔹Program 4: Implicit Typecasting (Widening)
+
+                    Description: Convert int A =100 to double. 
+
+
+
+🔹 Program 5: Explicit Typecasting (Narrowing)
+
+                  Description: Casts a double to an int, cutting off decimals value.
+
+
+
+🔹 Program 6: Character to ASCII
+
+                    Description: Typecasts a character to its ASCII integer value. Example Print A ASCII Int value. 
+
+
+
+🔹 Program 7: Typecasting in Division
+
+                     Description: int a = 10, int b = 3; now divide 10/3 and store the decimal value in the Result variable and print it. 
