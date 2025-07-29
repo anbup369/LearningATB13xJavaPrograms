@@ -1,0 +1,103 @@
+16) Check if a Number is a Palindrome.
+
+17) Check if a Number is an Armstrong Number.
+
+18)  Check if a Person is Eligible for a Loan (Based on Age, Salary, and Credit Score)
+
+    * Take the below User info and store it into the variables:
+
+              Age (integer)
+
+              Salary (double or float)
+
+              Credit Score (integer)
+
+
+
+    Age Validation:
+
+              :- Check if the age is a positive integer.
+
+              :- Ensure the age is at least 18 years old.
+
+              :- Max age can be 80.
+
+
+
+    Salary Validation:
+
+             :- Check if the salary is a positive number.
+
+             :- Define a minimum salary threshold (e.g., 30,000).
+
+    Credit Score Validation:
+
+             :- Check if the credit score is a positive integer.
+
+             :- Define a minimum credit score threshold (e.g., 650).
+
+             :- Max credit score threshold (e.g., 850).
+
+
+
+19)  Electricity Bill Calculation (Based on Units Consumed)
+
+           :- take the input from the user of Units.
+
+    Implement Rate Structure:
+
+    Define the rate structure for calculating the bill based on the number of units consumed.
+
+            :-  First 100 units: 0.50Rs per unit
+
+            :-  Next 100 units (101-200): 0.75Rs per unit
+
+            :- Next 100 units (201-300): 1.20Rs per unit
+
+            :- Above 300 units: 1.50Rs per unit
+
+
+
+20)  Calculate Bonus Based on Salary and Years of Experience.
+
+          :- take the salary and Year info from the User.
+
+Implement Bonus Calculation Logic:
+
+     Define the bonus structure based on salary and years of experience.
+
+           :- If years of experience is less than 1 year: No bonus.
+
+           :- If years of experience is between 1 and 3 years: Bonus is 5% of the salary.
+
+           :- If years of experience is between 4 and 6 years: Bonus is 10% of the salary.
+
+           :- If years of experience is greater than 6 years: Bonus is 15% of the salary.
+
+
+
+21)  Calculate Employee Net Salary (Basic Pay, HRA, DA, Tax Deductions,) Research from your side for this program.
+
+22)  Find if a Person Can Travel Based on Visa Status and Age.
+
+     take the input from the user for
+
+            Age (integer).
+
+            Visa Status (String or boolean).
+
+     Check Eligibility:
+
+             :- If age is 18 or older and visa status is valid, the person can travel.
+
+Otherwise, the person cannot travel.
+
+        Validation Criteria
+
+                Age: - Must be a non-negative integer.
+
+                         :- Should be greater than or equal to 18 to be eligible to travel.
+
+        Visa Status :- Must be a valid string indicating the visa status (e.g., "valid" or "invalid").
+
+                               :- You can also use a boolean where true indicates a valid visa and false indicates an invalid visa

@@ -1,0 +1,62 @@
+8) Find the Smallest of Three Numbers.
+
+9) Find the Largest of Two Numbers.
+
+10) Check if a Year is a Leap Year.
+
+11) Calculate Grade Based on Marks. (Follow Below Steps to Write Program.)
+
+1️⃣ Take user input for marks (Use Scanner class).
+2️⃣ Check the validity of marks (ensure they are between 0 and 100).
+3️⃣ Use if-else-if conditions to determine the grade based on marks.
+4️⃣ Display the grade as output.
+
+📌 Grading Criteria (Example)
+
+Marks Range Grade
+
+90 - 100   A+
+
+80 - 89     A
+
+70 - 79      B
+
+60 - 69     C
+
+50 - 59      D
+
+40 - 49      E
+
+Below 40   Fail
+
+12) Check if a Character is an Alphabet.
+
+13) Check if a Number is Prime
+
+14) ATM Withdrawal Simulation. (Follow Below Steps to Write Program)
+
+       Steps to Write the Program
+
+1️⃣ Initialize the account balance with a fixed amount (e.g., ₹10,000).
+2️⃣ Take user input for the amount they want to withdraw.
+3️⃣ Check withdrawal conditions:
+
+
+
+
+
+The amount should be greater than zero.
+
+
+
+The amount should be a multiple of 100 (common ATM rule).
+
+
+
+The amount should not exceed the account balance.
+4️⃣ Deduct the amount from the balance if conditions are met.
+5️⃣ Display the updated balance or an error message if the withdrawal fails.
+
+
+
+15) Check if a Triangle is Valid Based on Three Sides.
