@@ -1,0 +1,35 @@
+17th June 2025 Extra Task
+1) What is Source Code?
+- Source Code is the original code written by a programmer using a high-level programming language like Java, Python, C++, etc.
+- It's human-readable and represents the instructions that tell the computer what to do.
+- Example: System.out.println("Hello, World"); is source code in Java.
+
+2) What is Byte Code?
+- Byte Code is an intermediate code generated after compiling source code in languages like Java.
+- It’s not machine-specific, making it portable across systems.
+- Java's byte code is executed by the Java Virtual Machine (JVM).
+
+3) What is Native Code?
+- Native Code (also known as machine code) is the low-level binary code specific to a computer's processor architecture.
+- This is the final form of code that a system can directly execute.
+- Unlike byte code, native code is platform-dependent.
+
+4) What is Java Compiler?
+- The Java Compiler is a tool that converts Java source code into byte code.
+- The most commonly used Java compiler is javac.
+- It checks for syntax errors and ensures the program can run on the JVM.
+
+5) What is JIT Compiler?
+- JIT (Just-In-Time) Compiler is part of the JVM.
+- It translates byte code into native code at runtime, improving performance.
+- Helps in optimizing frequently executed code paths while the program runs.
+
+6) Difference between Compiler and Interpreter
+
+| Feature          | Compiler                           | Interpreter                         |
+|------------------|------------------------------------|-------------------------------------|
+| Execution         | Translates entire code at once     | Translates and runs one line at a time |
+| Speed             | Faster after compilation           | Slower due to line-by-line execution |
+| Error Detection   | Detects all errors at once         | Detects errors as it interprets      |
+| Output            | Produces an intermediate file (e.g. .class) | No intermediate file           |
+| Languages Used    | C, C++, Java (compiles to bytecode) | Python, Ruby, JavaScript             |

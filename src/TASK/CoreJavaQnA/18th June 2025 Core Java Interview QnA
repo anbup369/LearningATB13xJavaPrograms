@@ -1,0 +1,95 @@
+18th June 2025 Core Java Interview QnA
+
+1) What is a Data Type?
+- A data type specifies the kind of data a variable can hold, such as integers, floating-point numbers, characters, or boolean values.
+
+2) Explain All Data Types in Detail:
+- Java has two categories:
+  a) Primitive Data Types:
+     - byte: 8-bit integer
+     - short: 16-bit integer
+     - int: 32-bit integer
+     - long: 64-bit integer
+     - float: 32-bit decimal
+     - double: 64-bit decimal
+     - char: a single 16-bit Unicode character
+     - boolean: true or false
+  b) Reference/Object Data Types:
+     - Used to refer to objects like arrays, strings, and custom classes.
+
+3) Default Value of Boolean in Java:
+- The default value of a boolean data type is false.
+
+4) Types of Operators in Java:
+- Arithmetic Operators: +, -, *, /, %
+- Relational Operators: ==, !=, >, <, >=, <=
+- Logical Operators: &&, ||, !
+- Assignment Operators: =, +=, -=, *=, /=, %=
+- Unary Operators: +, -, ++, --
+- Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+- Ternary Operator: condition ? true : false
+- instanceof Operator: checks object type
+
+5) Difference between float and double:
+- float: 32-bit, single-precision, ends with ‘f’. Example: 3.14f
+- double: 64-bit, double-precision, more accurate. Example: 3.14
+
+6) Eight Primitive Data Types in Java and Their Default Values:
+| Data Type | Default Value |
+|-----------|----------------|
+| byte      | 0              |
+| short     | 0              |
+| int       | 0              |
+| long      | 0L             |
+| float     | 0.0f           |
+| double    | 0.0d           |
+| char      | '\u0000'       |
+| boolean   | false          |
+
+7) Convert String to Primitive Data Type:
+```java
+String num = "50";
+int number = Integer.parseInt(num);
+
+- Difference Between Local and Instance Variables:
+
+- Local Variable: Declared inside methods, used only within that method.
+- Instance Variable: Declared in a class but outside methods, accessible to all methods within the class.
+
+- What is a JIT Compiler?
+
+- JIT (Just-In-Time) compiler translates Java byte code into native machine code at runtime to improve performance.
+
+- What is a Package in Java?
+
+- A package is a namespace that organizes classes and interfaces into a folder structure. It helps avoid naming conflicts and makes code modular.
+
+- What is a Class in Java?
+
+- A class is a blueprint or template for creating objects. It defines properties (fields) and behaviors (methods).
+
+- What is a Method?
+
+- A method is a block of code that performs a specific task, can be called and reused throughout the program.
+
+- Loops in Java and Their Types:
+
+- Loops are used to execute a block of code repeatedly.- for loop
+- while loop
+- do-while loop
+- for-each loop (used for arrays/collections)
+
+
+- What is an Infinite Loop?
+
+- An infinite loop is a loop that never ends because the termination condition is never met. Example:
+
+while(true) {
+  System.out.println("This will run forever!");
+}
+
+
+
+Need these converted into a study sheet or printable format later? Just let me know and I’ll tailor it to your style
+
+

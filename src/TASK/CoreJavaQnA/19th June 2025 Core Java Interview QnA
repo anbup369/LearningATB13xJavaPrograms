@@ -1,0 +1,46 @@
+19th June 2025 Core Java Interview QnA
+
+
+
+1) What is a Keyword in Java?
+- Keywords are reserved words predefined in Java language with specific meanings and purposes. They cannot be used as variable names, class names, or identifiers.
+- Examples: class, public, static, if, else, return, void.
+
+2) What are Identifiers in Java?
+- Identifiers are the names used for classes, methods, variables, labels, etc. They are defined by the programmer.
+- Example: int totalMarks; — "totalMarks" is an identifier.
+
+3) Where Can’t We Use Keywords in a Program?
+- Keywords cannot be used to name variables, methods, classes, or any user-defined elements because they are reserved by the language.
+
+4) Rules for Identifiers:
+- Must begin with a letter (A-Z or a-z), currency character ($), or underscore (_)
+- Subsequent characters can include digits (0-9)
+- No spaces or special characters like @, #, etc.
+- Cannot be a keyword
+- Java is case-sensitive, so `Variable` and `variable` are different identifiers.
+
+5) What is a Magic Value in Java?
+- Magic value refers to hardcoded values in code that lack explanation, making the code harder to understand.
+- Example: `if(score > 65)` — here, `65` is a magic number without context.
+
+6) What is a Statement in Java?
+- A statement is a single line of code that performs a specific action, typically ending with a semicolon `;`.
+- Example: `int x = 10;`
+
+7) Difference Between print and println:
+- `print()`: Outputs text without moving to the next line.
+- `println()`: Outputs text and moves the cursor to the next line.
+
+8) By Default println Uses Which Data Type to Show Arithmetic Result?
+- By default, `println` uses the most appropriate data type based on the operands. If mixing types, Java applies **type promotion**, often resulting in a `double` or `int`.
+
+9) Difference Between Keyword and Identifier:
+| Aspect     | Keyword                          | Identifier                         |
+|------------|----------------------------------|------------------------------------|
+| Definition | Reserved word in Java language   | Name assigned to elements by user |
+| Usage      | Fixed meaning; can't be changed  | Custom names for variables, etc.  |
+| Examples   | int, class, return               | myAge, studentName                 |
+
+10) How Many Keywords Are There in Java?
+- Java currently has **approximately 50 reserved keywords**, including `class`, `interface`, `enum`, `throws`, and more.

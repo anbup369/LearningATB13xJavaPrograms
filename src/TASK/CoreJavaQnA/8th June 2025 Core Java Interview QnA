@@ -1,0 +1,45 @@
+Task 8th June 2025 | Java Interview QnA
+
+1) Install Eclipse and InteliJ IDE - done
+
+2) Install the JDK and Setup the environment path -done
+
+3) Config the GitHub and push the code into GitHub. - done
+
+Prepare the Below Questions Answer and post the same Answer in this post Comment Section.
+
+Q1. What is Java?
+Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It's designed to be:
+- Platform-independent thanks to the JVM
+- Robust and secure
+- Ideal for building applications ranging from mobile to enterprise and embedded systems
+
+Q2. Features of Java
+Java boasts a rich set of features that make it incredibly popular:
+- Platform Independence: Write once, run anywhere
+- Object-Oriented: Everything revolves around objects and classes
+- Robust: Strong memory management and exception handling
+- Secure: Built-in security features like bytecode verification and sandboxing
+- High Performance: Just-In-Time (JIT) compiler boosts runtime performance
+- Distributed: Supports networking and remote method invocation (RMI)
+- Multithreaded: Handles multiple tasks simultaneously using threads
+
+Q4. What is JDK and its Components?
+JDK (Java Development Kit) is the full suite used for developing Java applications. It includes:
+- JRE: Runtime for running Java apps (includes JVM + libraries)
+- JVM: Executes compiled Java code (bytecode)
+- Development Tools: javac, java, javadoc, jdb — for compiling, running, and debugging
+- Java APIs: Libraries and packages like java.util, java.io, etc.
+
+Q5. Is JVM Platform-Independent?
+Yes! The JVM is implemented differently for each platform, but Java bytecode runs on any JVM regardless of the system — making Java platform-independent. Compile once, run anywhere.
+
+Q6. Difference Between JDK and JRE
+
+| Feature             | JDK                          | JRE                      |
+|---------------------|-------------------------------|--------------------------|
+| Includes JVM        | Yes                           | Yes                      |
+| Includes JRE        | Yes                           | No                       |
+| Development Tools   | Yes (javac, debugger, etc.)   | No                       |
+| Purpose             | Develop + run Java apps       | Only run Java apps       |
+

@@ -1,0 +1,47 @@
+20th June 2025 Core Java Interview QnA
+
+1) What is Git and GitHub?
+- Git: A distributed version control system that helps track code changes and collaborate across teams.
+- GitHub: A cloud-based hosting platform for Git repositories, providing collaboration tools like pull requests, issues, and code reviews.
+
+2) Difference Between Git and GitHub:
+- Git is the version control tool; GitHub is the online service that hosts Git repositories.
+- Git works locally on your system; GitHub facilitates sharing and collaboration online.
+
+3) Flow/Structure of Java Programs:
+- Package declaration (optional)
+- Import statements
+- Class declaration
+- Main method: public static void main(String[] args)
+- Inside main, include statements, variable declarations, method calls, logic.
+
+4) Execute Java Program Without JDK?
+- No, JDK (Java Development Kit) is necessary for compiling Java code. You may run precompiled `.class` files using JRE, but cannot develop/compile without JDK.
+
+5) Multiple JDK/JRE Installation:
+- Yes, you can install multiple JDKs or JREs.
+- Use environment variables like `JAVA_HOME` to switch between versions.
+
+6) What is Main Method?
+- It's the entry point of every standalone Java application.
+- Syntax: `public static void main(String[] args)`
+
+7) Multiple Main Methods?
+- Yes. A class can have multiple methods named `main()` with different parameters, but only the standard one (`public static void main(String[] args)`) acts as the program entry point.
+
+8) Run Program Without Main Method?
+- Yes, but only for specific contexts like using JavaFX or static blocks, or in older versions of Java. For standard execution, main is required.
+
+9) Difference: println vs printf vs print:
+- println(): Prints and moves to new line.
+- print(): Prints without moving to new line.
+- printf(): Prints formatted output (like String.format with placeholders).
+
+10) Default Value of Local Variable:
+- Local variables **do not have default values**. You must initialize them before use, or Java will throw a compile-time error.
+
+11) Who Provides Default Value to Variable?
+- The Java Runtime Environment assigns default values to instance and static variables only—not local variables.
+
+12) Can Final Variable Value Be Changed?
+- No. A variable declared `final` cannot be reassigned once initialized.
